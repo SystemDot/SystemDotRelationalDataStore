@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SystemDotRelationalDataStoreAzureMobile</id>
+        <version>1.0.0-beta</version>
+        <title>SystemDot.RelationalDataStore.AzureMobile</title>
+        <authors>Chris Sampson,James Goodenough</authors>
+        <owners>Chris Sampson,James Goodenough</owners>
+        <projectUrl>https://github.com/SystemDot/SystemDotAzureMobile</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Relational data store library backed by Azure mobile data services infrastructure for cross platform development on iOS, Android, WinRT and Windows</description>
+        <summary>Relational data store library backed by Azure mobile data services infrastructure for cross platform development on iOS, Android, WinRT and Windows</summary>
+        <copyright>SystemDot 2014</copyright>
+        <language>en-GB</language>
+        <tags>Azure Mobile, Data, Cross Platform</tags>
+        <dependencies>
+          <dependency id="SystemDotBootstrapping" version="1.0.3" />
+          <dependency id="SystemDotIoc" version="1.0.1" />
+          <dependency id="SystemDotAzureMobile" version="1.0.0-beta" />
+          <dependency id="SystemDotRelationalDataStore" version="1.0.0" />
+          <dependency id="WindowsAzure.MobileServices" version="1.3.0-beta2" />
+          <dependency id="SystemDotDomain" version="3.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Build\SystemDot.RelationalDataStore.AzureMobile.dll" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.AzureMobile.dll" />
+        <file src="Build\SystemDot.RelationalDataStore.AzureMobile.pdb" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.AzureMobile.pdb" />
+    </files>
+</package>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FE8972E7-2EA6-4E6A-8E2A-D9BCAC90544C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C94BB723-4290-442E-8310-0C3D91C1476D}"
+	ProjectSection(SolutionItems) = preProject
+		SystemDotRelationalDataStoreAzureMobile.nuspec = SystemDotRelationalDataStoreAzureMobile.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemDot.RelationalDataStore.AzureMobile", "SystemDot.RelationalDataStore.AzureMobile\SystemDot.RelationalDataStore.AzureMobile.csproj", "{D8335D0F-3D71-43F9-8242-579FB2D961B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemDot.RelationalDataStore.AzureMobile.Specifications", "SystemDot.RelationalDataStore.AzureMobile.Specifications\SystemDot.RelationalDataStore.AzureMobile.Specifications.csproj", "{222E0EC1-3438-46E3-B5E4-BB5316C8BFB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8335D0F-3D71-43F9-8242-579FB2D961B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8335D0F-3D71-43F9-8242-579FB2D961B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8335D0F-3D71-43F9-8242-579FB2D961B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8335D0F-3D71-43F9-8242-579FB2D961B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222E0EC1-3438-46E3-B5E4-BB5316C8BFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222E0EC1-3438-46E3-B5E4-BB5316C8BFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222E0EC1-3438-46E3-B5E4-BB5316C8BFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222E0EC1-3438-46E3-B5E4-BB5316C8BFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

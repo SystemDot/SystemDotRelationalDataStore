@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SystemDotRelationalDataStore</id>
+        <version>1.0.0</version>
+        <title>SystemDotRelationalDataStore</title>
+        <authors>Chris Sampson,James Goodenough</authors>
+        <owners>Chris Sampson,James Goodenough</owners>
+        <projectUrl>https://github.com/SystemDot/SystemDotCore</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Relational data store access infrastructure for cross platform development on Android, iOS and WinRT</description>
+        <summary>Relational data store access infrastructure cross platform development on Android, iOS and WinRT</summary>
+        <copyright>SystemDot 2014</copyright>
+        <language>en-GB</language>
+        <tags>Data, Repositories, Domain, Aggregate root, Cross Platform</tags>
+        <dependencies>
+          <dependency id="SystemDotBootstrapping" version="1.0.3" />
+          <dependency id="SystemDotIoc" version="1.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="Build\SystemDot.RelationalDataStore.dll" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.dll" />
+      <file src="Build\SystemDot.RelationalDataStore.pdb" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.pdb" />
+      <file src="Build\SystemDot.RelationalDataStore.InMemory.dll" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.InMemory.dll" />
+      <file src="Build\SystemDot.RelationalDataStore.InMemory.pdb" target="lib\portable-win+net45+MonoAndroid+MonoTouch+win8\SystemDot.RelationalDataStore.InMemory.pdb" />
+    </files>
+</package>
